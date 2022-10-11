@@ -1,0 +1,111 @@
+object Form1: TForm1
+  Left = 1229
+  Height = 661
+  Top = 118
+  Width = 646
+  Caption = 'ADamian Skorka, Semestr 1'
+  ClientHeight = 661
+  ClientWidth = 646
+  LCLVersion = '2.0.12.0'
+  object TListBox_zbior_danych_zrodlowych: TListBox
+    Left = 32
+    Height = 446
+    Top = 70
+    Width = 237
+    ItemHeight = 0
+    OnClick = TListBox_zbior_danych_zrodlowychClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object TListBox_zbior_danych_posortowanych: TListBox
+    Left = 378
+    Height = 446
+    Top = 70
+    Width = 237
+    ItemHeight = 0
+    OnClick = TListBox_zbior_danych_posortowanychClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Opis_1: TLabel
+    Left = 32
+    Height = 24
+    Top = 33
+    Width = 216
+    Caption = 'Lista nieposortowana'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlue
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Opis_1Click
+  end
+  object Button_Losuj: TButton
+    Left = 70
+    Height = 42
+    Top = 544
+    Width = 103
+    Caption = 'Losuj'
+    OnClick = Button_LosujClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button_Sortuj: TButton
+    Left = 198
+    Height = 42
+    Top = 544
+    Width = 104
+    Caption = 'Sortuj'
+    OnClick = Button_SortujClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button_Konice: TButton
+    Left = 482
+    Height = 50
+    Top = 576
+    Width = 132
+    Caption = 'Koniec'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button_KoniceClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button_Info: TButton
+    Left = 352
+    Height = 31
+    Top = 595
+    Width = 97
+    Caption = 'Info'
+    OnClick = Button_InfoClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Opis_2: TLabel
+    Left = 376
+    Height = 24
+    Top = 33
+    Width = 186
+    Caption = 'Lista posortowana'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlue
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Opis_2Click
+  end
+end
